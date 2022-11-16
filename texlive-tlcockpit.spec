@@ -30,15 +30,10 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%doc %{_texmfdistdir}/texmf-dist/source/support/tlcockpit
-%{_texmfdistdir}/texmf-dist/scripts/tlcockpit
-%doc %{_texmfdistdir}/texmf-dist/doc/support/tlcockpit
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/tlcockpit.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/tlcockpit.1
+%doc %{_texmfdistdir}/source/support/tlcockpit
+%{_texmfdistdir}/scripts/tlcockpit
+%doc %{_texmfdistdir}/doc/support/tlcockpit
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
