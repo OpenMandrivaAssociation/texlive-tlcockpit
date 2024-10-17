@@ -3,7 +3,7 @@ Version:	54857
 Release:	2
 Summary:	A GUI frontend to TeX Live Manager (tlmgr)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tlcockpit
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tlcockpit
 License:	gpl3+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlcockpit.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tlcockpit.doc.r%{version}.tar.xz
